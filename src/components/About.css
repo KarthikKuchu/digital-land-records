@@ -1,0 +1,33 @@
+.about-page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+.about-section {
+  margin-bottom: 25px;
+}
+
+.about-section h2 {
+  color: #1e40af;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about-section ul {
+  padding-left: 20px;
+}
+
+.about-section li {
+  margin-bottom: 6px;
+}

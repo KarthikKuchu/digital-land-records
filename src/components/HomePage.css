@@ -1,0 +1,132 @@
+.home {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  background-color: #e0f2fe;
+  gap: 30px;
+}
+.hero-content {
+  max-width: 50%;
+}
+.hero-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #334155;
+}
+
+.hero button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background-color: #1e40af;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Features Section */
+.features {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 30px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f1f5f9;
+  padding: 20px;
+  width: 220px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Why Section */
+.why {
+  padding: 50px 30px;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.why h2 {
+  margin-bottom: 15px;
+}
+
+.why p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  color: #334155;
+}
+
+/* Footer */
+.footer {
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.location {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f1f5f9;
+}
+
+.location h2 {
+  margin-bottom: 20px;
+}
+
+.location select {
+  padding: 10px;
+  width: 220px;
+  margin: 10px;
+  font-size: 16px;
+}
+.submit-box {
+  margin-top: 20px;
+}
+
+.submit-box button {
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-box button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
