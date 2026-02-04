@@ -155,27 +155,8 @@
 }
 
 /* =========================
-   PRINT (PDF DOWNLOAD)
+   ACTIVITY LOG
 ========================= */
-@media print {
-  body * {
-    visibility: hidden;
-  }
-
-  .record-box,
-  .record-box * {
-    visibility: visible;
-  }
-
-  .record-box {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-  }
-}
-
-/* Activity Log */
 .activity-box {
   max-width: 520px;
   margin: 30px auto;
@@ -197,4 +178,53 @@
 .activity-box li {
   font-size: 14px;
   margin-bottom: 6px;
+}
+
+/* =========================
+   PRINT (PDF DOWNLOAD)
+========================= */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .record-box,
+  .record-box * {
+    visibility: visible;
+  }
+
+  .record-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+/* =========================
+   MOBILE & TABLET VIEW
+========================= */
+@media (max-width: 768px) {
+  .services-page {
+    padding: 25px 15px;
+  }
+
+  .services-page h1 {
+    font-size: 22px;
+  }
+
+  .location-box,
+  .record-box,
+  .activity-box {
+    padding: 18px;
+  }
+
+  .location-box h2,
+  .record-box h2 {
+    font-size: 18px;
+  }
+
+  .record-box p {
+    font-size: 14px;
+  }
 }

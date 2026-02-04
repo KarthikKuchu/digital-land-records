@@ -1,15 +1,24 @@
+/* =========================
+   CONTACT PAGE LAYOUT
+========================= */
 .contact-page {
   padding: 40px 20px;
   max-width: 900px;
   margin: auto;
+  font-family: Arial, sans-serif;
 }
 
+/* Page Title */
 .contact-page h1 {
   text-align: center;
   margin-bottom: 30px;
   color: #0f172a;
+  font-size: 32px;
 }
 
+/* =========================
+   CONTACT SECTIONS
+========================= */
 .contact-section {
   margin-bottom: 30px;
 }
@@ -17,14 +26,18 @@
 .contact-section h2 {
   color: #1e40af;
   margin-bottom: 10px;
+  font-size: 22px;
 }
 
 .contact-section p {
   font-size: 16px;
   line-height: 1.6;
+  color: #334155;
 }
 
-/* Contact Form */
+/* =========================
+   CONTACT FORM
+========================= */
 .contact-form {
   max-width: 500px;
   margin-top: 15px;
@@ -41,6 +54,10 @@
   box-sizing: border-box;
 }
 
+.contact-form textarea {
+  resize: vertical;
+}
+
 .contact-form button {
   padding: 12px 25px;
   font-size: 16px;
@@ -55,15 +72,46 @@
   background-color: #1d4ed8;
 }
 
-/* Map */
+/* =========================
+   MAP SECTION
+========================= */
 .map-container {
   margin-top: 10px;
   border-radius: 8px;
   overflow: hidden;
 }
 
-/* Note */
+/* =========================
+   NOTE TEXT
+========================= */
 .note {
   font-size: 14px;
   color: #475569;
+}
+
+/* =========================
+   MOBILE & TABLET VIEW
+========================= */
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 25px 15px;
+  }
+
+  .contact-page h1 {
+    font-size: 22px;
+  }
+
+  .contact-section h2 {
+    font-size: 18px;
+  }
+
+  .contact-section p,
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
 }

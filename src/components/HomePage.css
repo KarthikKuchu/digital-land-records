@@ -1,8 +1,13 @@
+/* =========================
+   GLOBAL
+========================= */
 .home {
   font-family: Arial, sans-serif;
 }
 
-/* Hero Section */
+/* =========================
+   HERO SECTION
+========================= */
 .hero {
   display: flex;
   align-items: center;
@@ -11,14 +16,18 @@
   background-color: #e0f2fe;
   gap: 30px;
 }
+
 .hero-content {
   max-width: 50%;
 }
+
 .hero-image img {
   width: 400px;
+  max-width: 100%;
   border-radius: 10px;
 }
 
+/* Hero text */
 .hero h1 {
   font-size: 32px;
   margin-bottom: 15px;
@@ -31,6 +40,7 @@
   color: #334155;
 }
 
+/* Hero button */
 .hero button {
   padding: 12px 25px;
   font-size: 16px;
@@ -45,7 +55,9 @@
   background-color: #1d4ed8;
 }
 
-/* Features Section */
+/* =========================
+   FEATURES SECTION
+========================= */
 .features {
   padding: 50px 20px;
   text-align: center;
@@ -53,6 +65,7 @@
 
 .features h2 {
   margin-bottom: 30px;
+  font-size: 26px;
 }
 
 .feature-cards {
@@ -70,31 +83,9 @@
   font-size: 16px;
 }
 
-/* Why Section */
-.why {
-  padding: 50px 30px;
-  background-color: #f8fafc;
-  text-align: center;
-}
-
-.why h2 {
-  margin-bottom: 15px;
-}
-
-.why p {
-  max-width: 700px;
-  margin: auto;
-  font-size: 16px;
-  color: #334155;
-}
-
-/* Footer */
-.footer {
-  background-color: #1e293b;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
+/* =========================
+   LOCATION SECTION
+========================= */
 .location {
   text-align: center;
   padding: 40px 20px;
@@ -111,6 +102,8 @@
   margin: 10px;
   font-size: 16px;
 }
+
+/* Submit button */
 .submit-box {
   margin-top: 20px;
 }
@@ -130,3 +123,76 @@
   cursor: not-allowed;
 }
 
+/* =========================
+   WHY SECTION
+========================= */
+.why {
+  padding: 50px 30px;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.why h2 {
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+
+.why p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  color: #334155;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* =========================
+   MOBILE & TABLET VIEW
+========================= */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  .features h2,
+  .why h2 {
+    font-size: 22px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .location select {
+    width: 100%;
+    max-width: 260px;
+  }
+}
