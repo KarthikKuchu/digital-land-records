@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/digital-land-records/static/css/main.4cc81b07.css",
+    "main.css": "/digital-land-records/static/css/main.30075b61.css",
     "main.js": "/digital-land-records/static/js/main.e06e8f57.js",
     "static/media/anantapur.jpg": "/digital-land-records/static/media/anantapur.98831d2c06041d2cee2b.jpg",
     "index.html": "/digital-land-records/index.html",
-    "main.4cc81b07.css.map": "/digital-land-records/static/css/main.4cc81b07.css.map",
+    "main.30075b61.css.map": "/digital-land-records/static/css/main.30075b61.css.map",
     "main.e06e8f57.js.map": "/digital-land-records/static/js/main.e06e8f57.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cc81b07.css",
+    "static/css/main.30075b61.css",
     "static/js/main.e06e8f57.js"
   ]
 }
